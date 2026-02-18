@@ -27,10 +27,22 @@ try {
         recipes = JSON.parse(rawData);
         console.log(`✅ Recetas cargadas con éxito: ${recipes.length} encontradas.`);
     } else {
-        console.error('❌ ERROR: El archivo recipes.json no existe en la ruta especificada.');
-        // Intentar buscar en minúsculas por si acaso
-        const altPath = path.join(__dirname, 'Data', 'recipes.json');
-        if (fs.existsSync(altPath)) console.log('💡 Sugerencia: El archivo existe pero la carpeta empieza con D mayúscula.');
+        console.error('❌ ERROR: No se encuentra recipes.json en /data/');
+
+        // Diagnóstico: Listar qué hay en la raíz
+        console.log('🔍 Escaneando directorio raíz (__dirname):', __dirname);
+        try {
+            const files = fs.readdirSync(__dirname);
+            console.log('Archivos en raíz:', files.join(', '));
+
+            // Si existe una carpeta que se llame algo parecido a data
+            const dataFolder = files.find(f => f.toLowerCase() === 'data');
+            if (dataFolder) {
+                console.log(`📂 Carpeta "${dataFolder}" encontrada. Contenido:`, fs.readdirSync(path.join(__dirname, dataFolder)).join(', '));
+            } else {
+                console.log('❌ No existe ninguna carpeta llamada "data" (ni "Data").');
+            }
+        } catch (e) { console.log('Error escaneando directorios:', e.message); }
     }
 } catch (error) {
     console.error('❌ Error al parsear recipes.json:', error.message);
