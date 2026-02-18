@@ -15,7 +15,13 @@
     <meta name="apple-mobile-web-app-title" content="Qué Comemos">
     <link rel="apple-touch-icon" href="/icons/icon-192x192.png">
 
+    <!-- Preconnect to external APIs for speed -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://images.pexels.com">
+
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+
     <style>
         :root {
             --primary: #ff6b6b;
@@ -723,7 +729,8 @@
                 ✨ Receta Destacada del Día
             </div>
             <div class="daily-preview">
-                <img src="" alt="Daily Recipe" class="daily-img-thumb" id="dailyImg">
+                <img src="" alt="Daily Recipe" class="daily-img-thumb" id="dailyImg" loading="lazy">
+
                 <div class="daily-info">
                     <h4 id="dailyName">Cargando...</h4>
                     <p>⏱ <span id="dailyTime"></span> min • <span id="dailyDiff"></span></p>
@@ -747,8 +754,9 @@
         <!-- Result -->
         <section id="resultContainer" class="result-container">
             <div class="recipe-card">
-                <img src="" alt="Recipe" class="recipe-image" id="recipeImg"
+                <img src="" alt="Recipe" class="recipe-image" id="recipeImg" loading="lazy"
                     onerror="this.src='https://loremflickr.com/600/400/cooking,dish?random=1'">
+
 
                 <div class="header-actions">
                     <button class="circle-btn" id="voiceToggle" title="Control por Voz">🎤</button>
@@ -895,7 +903,7 @@
         // Initialize Stats
         ui.solvedCount.innerText = solvedCount;
 
-        const API_BASE_URL = 'https://que-comemos-hoy.onrender.com';
+        const API_BASE_URL = 'https://que-comemos-hoy-v1.onrender.com';
 
         // Shared Image Utility
         const STYLES = {

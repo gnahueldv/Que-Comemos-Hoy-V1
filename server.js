@@ -9,7 +9,13 @@ const PORT = process.env.PORT || 3000;
 const PEXELS_API_KEY = 'Jx59iAvLEok7uzDYzrdJd6rf8bVoJILK9iaA1V73K8NdfzrqvbRjkr5Z';
 
 app.use(cors());
-app.use(express.static(path.join(__dirname, 'public')));
+// Servir archivos estáticos con cache de 1 año para assets
+app.use(express.static(path.join(__dirname, 'public'), {
+    maxAge: '1y',
+    etag: true,
+    index: ['index.html']
+}));
+
 
 const normalizeText = (text) => {
     if (!text) return "";
@@ -141,8 +147,11 @@ app.get('/api/random', async (req, res) => {
 
     recipe.image = await getRealImage(recipe);
 
+    // Cachear búsquedas por 5 minutos para ahorrar datos
+    res.set('Cache-Control', 'public, max-age=300');
     res.json(recipe);
 });
+
 
 // Endpoint Receta del Día
 app.get('/api/daily', async (req, res) => {
