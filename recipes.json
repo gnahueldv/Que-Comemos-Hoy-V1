@@ -1,0 +1,1888 @@
+[
+    {
+        "id": "r1",
+        "name": "Pollo al limón con arroz",
+        "imageKeyword": "lemon chicken rice",
+        "ingredients": [
+            "pollo",
+            "limon",
+            "arroz",
+            "ajo",
+            "perejil"
+        ],
+        "categories": [
+            "rapido",
+            "familiar",
+            "economico"
+        ],
+        "time": 25,
+        "difficulty": "Fácil",
+        "instructions": "1. Sellar el pollo troceado. 2. Agregar jugo de limón y ajo picado. 3. Cocinar a fuego medio. 4. Servir con arroz y perejil."
+    },
+    {
+        "id": "r2",
+        "name": "Ensalada de Atún y Garbanzos",
+        "imageKeyword": "tuna chickpea salad",
+        "ingredients": [
+            "atun",
+            "garbanzos",
+            "tomate",
+            "cebolla",
+            "aceitunas"
+        ],
+        "categories": [
+            "rapido",
+            "saludable",
+            "economico"
+        ],
+        "time": 10,
+        "difficulty": "Fácil",
+        "instructions": "1. Escurrir los garbanzos y el atún. 2. Picar tomate y cebolla. 3. Mezclar todo con aceite de oliva, vinagre y aceitunas."
+    },
+    {
+        "id": "r3",
+        "name": "Pasta con salsa de tomate y queso",
+        "imageKeyword": "pasta tomato sauce cheese",
+        "ingredients": [
+            "pasta",
+            "tomate",
+            "queso",
+            "albahaca",
+            "aceite"
+        ],
+        "categories": [
+            "familiar",
+            "economico",
+            "rapido"
+        ],
+        "time": 15,
+        "difficulty": "Fácil",
+        "instructions": "1. Hervir la pasta al dente. 2. Calentar la salsa de tomate con albahaca. 3. Mezclar y espolvorear abundante queso."
+    },
+    {
+        "id": "r4",
+        "name": "Salmón al horno con verduras",
+        "imageKeyword": "baked salmon vegetables",
+        "ingredients": [
+            "salmon",
+            "zanahoria",
+            "brocoli",
+            "papa",
+            "limon"
+        ],
+        "categories": [
+            "saludable"
+        ],
+        "time": 30,
+        "difficulty": "Media",
+        "instructions": "1. Cortar verduras en trozos pequeños. 2. Salpimentar el salmón. 3. Hornear todo a 200°C por 20 min con un chorrito de limón."
+    },
+    {
+        "id": "r5",
+        "name": "Omelette de Queso y Espinaca",
+        "imageKeyword": "spinach cheese omelette",
+        "ingredients": [
+            "huevo",
+            "queso",
+            "espinaca",
+            "cebolla",
+            "sal"
+        ],
+        "categories": [
+            "rapido",
+            "saludable",
+            "economico"
+        ],
+        "time": 5,
+        "difficulty": "Fácil",
+        "instructions": "1. Saltear la espinaca con cebolla. 2. Batir los huevos. 3. Volcar en sartén y agregar el relleno. 4. Doblar y servir."
+    },
+    {
+        "id": "r6",
+        "name": "Tacos de Pollo y Aguacate",
+        "imageKeyword": "chicken avocado tacos",
+        "ingredients": [
+            "tortillas",
+            "pollo",
+            "aguacate",
+            "tomate",
+            "cilantro"
+        ],
+        "categories": [
+            "rapido",
+            "familiar"
+        ],
+        "time": 20,
+        "difficulty": "Fácil",
+        "instructions": "1. Cocinar el pollo en tiras. 2. Calentar las tortillas. 3. Armar los tacos con aguacate, tomate y cilantro."
+    },
+    {
+        "id": "r7",
+        "name": "Lentejas Guisadas",
+        "imageKeyword": "lentil stew bowl",
+        "ingredients": [
+            "lentejas",
+            "chorizo",
+            "papa",
+            "zanahoria",
+            "cebolla"
+        ],
+        "categories": [
+            "familiar",
+            "economico"
+        ],
+        "time": 45,
+        "difficulty": "Media",
+        "instructions": "1. Sofreír cebolla y chorizo. 2. Añadir lentejas, papa y zanahoria. 3. Cubrir con agua y cocinar a fuego lento."
+    },
+    {
+        "id": "r8",
+        "name": "Risotto de Champiñones",
+        "imageKeyword": "mushroom risotto plated",
+        "ingredients": [
+            "arroz arborio",
+            "champiñones",
+            "caldo",
+            "queso parmesano",
+            "cebolla"
+        ],
+        "categories": [
+            "saludable",
+            "familiar"
+        ],
+        "time": 35,
+        "difficulty": "Media",
+        "instructions": "1. Sofreír cebolla y champiñones. 2. Añadir arroz y caldo poco a poco. 3. Terminar con parmesano."
+    },
+    {
+        "id": "r9",
+        "name": "Milanesas con Puré",
+        "imageKeyword": "breaded cutlet mashed potato",
+        "ingredients": [
+            "carne",
+            "pan rallado",
+            "huevo",
+            "papa",
+            "leche"
+        ],
+        "categories": [
+            "familiar",
+            "economico"
+        ],
+        "time": 40,
+        "difficulty": "Fácil",
+        "instructions": "1. Empanar la carne. 2. Freír u hornear. 3. Hacer puré con papas hervidas, leche y manteca."
+    },
+    {
+        "id": "r10",
+        "name": "Wraps Vegetarianos",
+        "imageKeyword": "vegetarian wrap hummus",
+        "ingredients": [
+            "tortillas",
+            "hummus",
+            "zanahoria",
+            "pepino",
+            "espinaca"
+        ],
+        "categories": [
+            "rapido",
+            "saludable"
+        ],
+        "time": 10,
+        "difficulty": "Fácil",
+        "instructions": "1. Untar hummus en la tortilla. 2. Rellenar con verduras crudas ralladas. 3. Enrollar y disfrutar."
+    },
+    {
+        "id": "r11",
+        "name": "Gnocchi con Tuco",
+        "imageKeyword": "gnocchi tomato meat sauce",
+        "ingredients": [
+            "ñoquis",
+            "tomate",
+            "carne picada",
+            "cebolla",
+            "queso"
+        ],
+        "categories": [
+            "familiar"
+        ],
+        "time": 30,
+        "difficulty": "Media",
+        "instructions": "1. Preparar el tuco con tomate y carne. 2. Hervir los ñoquis. 3. Servir con abundante salsa."
+    },
+    {
+        "id": "r12",
+        "name": "Pechugas a la Plancha con Calabaza",
+        "imageKeyword": "grilled chicken pumpkin",
+        "ingredients": [
+            "pollo",
+            "calabaza",
+            "romero",
+            "aceite",
+            "sal"
+        ],
+        "categories": [
+            "saludable",
+            "economico"
+        ],
+        "time": 25,
+        "difficulty": "Fácil",
+        "instructions": "1. Hornar la calabaza en rodajas. 2. Cocinar el pollo a la plancha con romero. 3. Servir caliente."
+    },
+    {
+        "id": "r13",
+        "name": "Quesadillas de Jamón y Queso",
+        "imageKeyword": "ham cheese quesadilla",
+        "ingredients": [
+            "tortillas",
+            "jamon",
+            "queso",
+            "maiz",
+            "cebolla"
+        ],
+        "categories": [
+            "rapido",
+            "economico"
+        ],
+        "time": 10,
+        "difficulty": "Fácil",
+        "instructions": "1. Poner jamón y queso sobre la tortilla. 2. Doblar y calentar en sartén hasta que el queso funda."
+    },
+    {
+        "id": "r14",
+        "name": "Hamburguesas Caseras de Lentejas",
+        "imageKeyword": "lentil veggie burger",
+        "ingredients": [
+            "lentejas cocidas",
+            "huevo",
+            "ajo",
+            "perejil",
+            "pan rallado"
+        ],
+        "categories": [
+            "saludable",
+            "economico"
+        ],
+        "time": 30,
+        "difficulty": "Media",
+        "instructions": "1. Procesar las lentejas. 2. Mezclar con resto de ingredientes. 3. Formar hamburguesas y cocinar al horno."
+    },
+    {
+        "id": "r15",
+        "name": "Pizza Margarita",
+        "imageKeyword": "margherita pizza",
+        "ingredients": [
+            "masa pizza",
+            "mozzarella",
+            "tomate",
+            "albahaca",
+            "aceite de oliva"
+        ],
+        "categories": [
+            "familiar",
+            "economico"
+        ],
+        "time": 20,
+        "difficulty": "Media",
+        "instructions": "1. Estirar la masa. 2. Cubrir con tomate y queso. 3. Hornear a fuego máximo. 4. Agregar albahaca al final."
+    },
+    {
+        "id": "r16",
+        "name": "Wok de Pollo y Verduras",
+        "imageKeyword": "chicken vegetable stir fry wok",
+        "ingredients": [
+            "pollo",
+            "pimiento",
+            "cebolla",
+            "soja",
+            "semillas"
+        ],
+        "categories": [
+            "saludable",
+            "rapido"
+        ],
+        "time": 15,
+        "difficulty": "Fácil",
+        "instructions": "1. Cortar todo en tiras finas. 2. Saltear a fuego fuerte. 3. Añadir salsa de soja y semillas."
+    },
+    {
+        "id": "r17",
+        "name": "Berenjenas Rellenas",
+        "imageKeyword": "stuffed eggplant baked",
+        "ingredients": [
+            "berenjena",
+            "carne picada",
+            "cebolla",
+            "queso",
+            "tomate"
+        ],
+        "categories": [
+            "saludable",
+            "familiar"
+        ],
+        "time": 40,
+        "difficulty": "Media",
+        "instructions": "1. Ahuecar berenjenas. 2. Preparar relleno con la pulpa y carne. 3. Rellenar y hornear con queso."
+    },
+    {
+        "id": "r18",
+        "name": "Arroz Chaufa",
+        "imageKeyword": "fried rice egg chicken asian",
+        "ingredients": [
+            "arroz cocido",
+            "huevo",
+            "pollo",
+            "cebolla de verdeo",
+            "soja"
+        ],
+        "categories": [
+            "rapido",
+            "familiar",
+            "economico"
+        ],
+        "time": 15,
+        "difficulty": "Fácil",
+        "instructions": "1. Saltear pollo y tortilla de huevo troceada. 2. Añadir arroz frío. 3. Saltear con soja y verdeo."
+    },
+    {
+        "id": "r19",
+        "name": "Pescado al Papillote",
+        "imageKeyword": "fish en papillote vegetables",
+        "ingredients": [
+            "filete de pescado",
+            "limon",
+            "zapallito",
+            "zanahoria",
+            "cebolla"
+        ],
+        "categories": [
+            "saludable"
+        ],
+        "time": 25,
+        "difficulty": "Fácil",
+        "instructions": "1. Poner pescado y verduras en papel aluminio. 2. Cerrar bien. 3. Hornear 15-20 min."
+    },
+    {
+        "id": "r20",
+        "name": "Fajitas de Res",
+        "imageKeyword": "beef fajitas tortilla",
+        "ingredients": [
+            "carne de res",
+            "cebolla",
+            "pimiento",
+            "tortillas",
+            "comino"
+        ],
+        "categories": [
+            "familiar",
+            "rapido"
+        ],
+        "time": 20,
+        "difficulty": "Media",
+        "instructions": "1. Saltear la carne y verduras en tiras. 2. Condimentar. 3. Servir en tortillas calientes."
+    },
+    {
+        "id": "r21",
+        "name": "Ensalada Rusa",
+        "imageKeyword": "russian potato salad mayonnaise",
+        "ingredients": [
+            "papa",
+            "zanahoria",
+            "arvejas",
+            "mayonesa",
+            "huevo"
+        ],
+        "categories": [
+            "familiar",
+            "economico"
+        ],
+        "time": 30,
+        "difficulty": "Fácil",
+        "instructions": "1. Hervir papa y zanahoria en cubos. 2. Mezclar con arvejas y huevo duro. 3. Condimentar con mayonesa."
+    },
+    {
+        "id": "r22",
+        "name": "Canelones de Verdura",
+        "imageKeyword": "vegetable cannelloni baked",
+        "ingredients": [
+            "panqueques",
+            "acelga",
+            "ricota",
+            "salsa blanca",
+            "queso"
+        ],
+        "categories": [
+            "familiar"
+        ],
+        "time": 50,
+        "difficulty": "Media",
+        "instructions": "1. Preparar relleno con acelga y ricota. 2. Rellenar panqueques. 3. Cubrir con salsa blanca y hornear."
+    },
+    {
+        "id": "r23",
+        "name": "Brochetas de Pollo y Vegetales",
+        "imageKeyword": "chicken vegetable skewers grilled",
+        "ingredients": [
+            "pollo",
+            "pimiento",
+            "cebolla",
+            "champiñones",
+            "soja"
+        ],
+        "categories": [
+            "saludable",
+            "rapido"
+        ],
+        "time": 20,
+        "difficulty": "Fácil",
+        "instructions": "1. Armar las brochetas intercalando ingredientes. 2. Cocinar a la plancha o parrilla."
+    },
+    {
+        "id": "r24",
+        "name": "Sopa de Verduras Casera",
+        "imageKeyword": "homemade vegetable soup bowl",
+        "ingredients": [
+            "papa",
+            "zapallo",
+            "apio",
+            "zanahoria",
+            "puerro"
+        ],
+        "categories": [
+            "saludable",
+            "economico"
+        ],
+        "time": 35,
+        "difficulty": "Fácil",
+        "instructions": "1. Cortar todas las verduras. 2. Hervir en abundante agua hasta que estén tiernas. 3. Opcional: Procesar."
+    },
+    {
+        "id": "r25",
+        "name": "Zapallitos Rellenos",
+        "imageKeyword": "stuffed zucchini baked cheese",
+        "ingredients": [
+            "zapallitos",
+            "arroz cocido",
+            "queso",
+            "huevo",
+            "cebolla"
+        ],
+        "categories": [
+            "saludable",
+            "familiar",
+            "economico"
+        ],
+        "time": 35,
+        "difficulty": "Media",
+        "instructions": "1. Hervir zapallitos. 2. Ahuecar y mezclar pulpa con arroz y huevo. 3. Rellenar y gratinar con queso."
+    },
+    {
+        "id": "r26",
+        "name": "Tarta de Jamón y Queso",
+        "imageKeyword": "ham cheese tart quiche",
+        "ingredients": [
+            "masa tarta",
+            "jamon",
+            "queso",
+            "huevo",
+            "crema"
+        ],
+        "categories": [
+            "familiar",
+            "economico"
+        ],
+        "time": 40,
+        "difficulty": "Media",
+        "instructions": "1. Forrar molde con masa. 2. Mezclar huevos, crema, jamón y queso. 3. Volcar sobre la masa y hornear 30 min a 180°C."
+    },
+    {
+        "id": "r27",
+        "name": "Fideos con Manteca y Parmesano",
+        "imageKeyword": "pasta butter parmesan",
+        "ingredients": [
+            "pasta",
+            "manteca",
+            "queso parmesano",
+            "pimienta negra",
+            "sal"
+        ],
+        "categories": [
+            "rapido",
+            "economico"
+        ],
+        "time": 10,
+        "difficulty": "Fácil",
+        "instructions": "1. Hervir la pasta. 2. Escurrir reservando agua de cocción. 3. Mezclar con manteca, parmesano y pimienta. 4. Añadir agua si hace falta."
+    },
+    {
+        "id": "r28",
+        "name": "Locro Criollo",
+        "imageKeyword": "locro stew argentinian",
+        "ingredients": [
+            "maíz blanco",
+            "porotos",
+            "carne de cerdo",
+            "chorizo",
+            "zapallo"
+        ],
+        "categories": [
+            "familiar"
+        ],
+        "time": 90,
+        "difficulty": "Difícil",
+        "instructions": "1. Remojar maíz y porotos la noche anterior. 2. Cocinar la carne y embutidos. 3. Agregar verduras y legumbres. 4. Cocinar 1 hora a fuego lento."
+    },
+    {
+        "id": "r29",
+        "name": "Revuelto Gramajo",
+        "imageKeyword": "egg scramble ham potato strips",
+        "ingredients": [
+            "huevo",
+            "jamon",
+            "papa",
+            "aceite",
+            "sal"
+        ],
+        "categories": [
+            "rapido",
+            "economico",
+            "familiar"
+        ],
+        "time": 15,
+        "difficulty": "Fácil",
+        "instructions": "1. Freír papas en juliana hasta dorar. 2. Agregar jamón picado. 3. Volcar huevos batidos y revolver hasta cocinar."
+    },
+    {
+        "id": "r30",
+        "name": "Empanadas de Carne",
+        "imageKeyword": "beef empanadas baked",
+        "ingredients": [
+            "masa empanada",
+            "carne picada",
+            "cebolla",
+            "huevo duro",
+            "aceitunas"
+        ],
+        "categories": [
+            "familiar"
+        ],
+        "time": 50,
+        "difficulty": "Media",
+        "instructions": "1. Sofreír carne con cebolla y condimentos. 2. Agregar huevo duro y aceitunas. 3. Rellenar tapas y cerrar. 4. Hornear 20 min a 200°C."
+    },
+    {
+        "id": "r31",
+        "name": "Humitas en Chala",
+        "imageKeyword": "humitas corn tamales",
+        "ingredients": [
+            "choclo",
+            "cebolla",
+            "ají",
+            "queso",
+            "albahaca"
+        ],
+        "categories": [
+            "familiar"
+        ],
+        "time": 60,
+        "difficulty": "Difícil",
+        "instructions": "1. Rallar el choclo. 2. Mezclar con queso, cebolla y condimentos. 3. Rellenar chalas y atar. 4. Hervir 40 min."
+    },
+    {
+        "id": "r32",
+        "name": "Carbonara Clásica",
+        "imageKeyword": "pasta carbonara egg bacon",
+        "ingredients": [
+            "pasta",
+            "panceta",
+            "huevo",
+            "queso parmesano",
+            "pimienta negra"
+        ],
+        "categories": [
+            "rapido",
+            "familiar"
+        ],
+        "time": 20,
+        "difficulty": "Media",
+        "instructions": "1. Cocinar pasta y panceta. 2. Mezclar yemas con parmesano. 3. Unir pasta y panceta fuera del fuego. 4. Agregar mezcla de huevo removiendo rápido."
+    },
+    {
+        "id": "r33",
+        "name": "Pollo a la Cazadora",
+        "imageKeyword": "chicken cacciatore tomato herbs",
+        "ingredients": [
+            "pollo",
+            "tomate",
+            "aceitunas",
+            "alcaparras",
+            "vino blanco"
+        ],
+        "categories": [
+            "familiar"
+        ],
+        "time": 45,
+        "difficulty": "Media",
+        "instructions": "1. Dorar el pollo. 2. Añadir tomate, aceitunas y alcaparras. 3. Desglasar con vino. 4. Cocinar tapado 30 min."
+    },
+    {
+        "id": "r34",
+        "name": "Curry de Garbanzos",
+        "imageKeyword": "chickpea curry indian",
+        "ingredients": [
+            "garbanzos",
+            "leche de coco",
+            "tomate",
+            "curry en polvo",
+            "cebolla"
+        ],
+        "categories": [
+            "saludable",
+            "economico"
+        ],
+        "time": 25,
+        "difficulty": "Fácil",
+        "instructions": "1. Sofreír cebolla con curry. 2. Agregar tomate y leche de coco. 3. Incorporar garbanzos. 4. Cocinar 15 min y servir con arroz."
+    },
+    {
+        "id": "r35",
+        "name": "Pad Thai de Camarón",
+        "imageKeyword": "pad thai shrimp noodles",
+        "ingredients": [
+            "fideos de arroz",
+            "camarones",
+            "huevo",
+            "brotes de soja",
+            "salsa de pescado"
+        ],
+        "categories": [
+            "rapido"
+        ],
+        "time": 20,
+        "difficulty": "Media",
+        "instructions": "1. Remojar fideos. 2. Saltear camarones y huevo. 3. Agregar fideos, salsa y brotes. 4. Servir con limón y maní."
+    },
+    {
+        "id": "r36",
+        "name": "Bowl de Açaí",
+        "imageKeyword": "acai bowl fruit granola",
+        "ingredients": [
+            "pulpa de açaí",
+            "banana",
+            "granola",
+            "miel",
+            "frutas del bosque"
+        ],
+        "categories": [
+            "saludable",
+            "rapido"
+        ],
+        "time": 5,
+        "difficulty": "Fácil",
+        "instructions": "1. Procesar açaí con banana congelada. 2. Servir en bowl. 3. Decorar con granola, frutas y miel."
+    },
+    {
+        "id": "r37",
+        "name": "Shakshuka",
+        "imageKeyword": "shakshuka eggs tomato sauce",
+        "ingredients": [
+            "huevo",
+            "tomate",
+            "pimiento",
+            "cebolla",
+            "comino"
+        ],
+        "categories": [
+            "saludable",
+            "rapido",
+            "economico"
+        ],
+        "time": 20,
+        "difficulty": "Fácil",
+        "instructions": "1. Sofreír cebolla y pimiento. 2. Agregar tomate y especias. 3. Hacer huecos y romper los huevos. 4. Tapar y cocinar 5-7 min."
+    },
+    {
+        "id": "r38",
+        "name": "Sopa de Miso con Tofu",
+        "imageKeyword": "miso soup tofu japanese",
+        "ingredients": [
+            "pasta de miso",
+            "tofu",
+            "alga wakame",
+            "cebolla de verdeo",
+            "dashi"
+        ],
+        "categories": [
+            "saludable",
+            "rapido"
+        ],
+        "time": 10,
+        "difficulty": "Fácil",
+        "instructions": "1. Calentar el caldo dashi. 2. Disolver el miso. 3. Agregar tofu en cubos y algas. 4. Decorar con verdeo."
+    },
+    {
+        "id": "r39",
+        "name": "Lasaña de Carne",
+        "imageKeyword": "beef lasagna baked cheese",
+        "ingredients": [
+            "pasta lasaña",
+            "carne picada",
+            "tomate",
+            "salsa blanca",
+            "mozzarella"
+        ],
+        "categories": [
+            "familiar"
+        ],
+        "time": 60,
+        "difficulty": "Media",
+        "instructions": "1. Preparar tuco con carne. 2. Intercalar capas de pasta, tuco y salsa blanca. 3. Cubrir con mozzarella. 4. Hornear 30 min a 180°C."
+    },
+    {
+        "id": "r40",
+        "name": "Pollo Tikka Masala",
+        "imageKeyword": "chicken tikka masala indian curry",
+        "ingredients": [
+            "pollo",
+            "yogur",
+            "tomate",
+            "crema",
+            "garam masala"
+        ],
+        "categories": [
+            "familiar"
+        ],
+        "time": 35,
+        "difficulty": "Media",
+        "instructions": "1. Marinar el pollo en yogur y especias. 2. Dorar en sartén. 3. Preparar salsa con tomate, crema y especias. 4. Unir y cocinar 15 min."
+    },
+    {
+        "id": "r41",
+        "name": "Croquetas de Papa y Queso",
+        "imageKeyword": "potato cheese croquettes",
+        "ingredients": [
+            "papa",
+            "queso",
+            "huevo",
+            "pan rallado",
+            "perejil"
+        ],
+        "categories": [
+            "economico",
+            "familiar"
+        ],
+        "time": 30,
+        "difficulty": "Media",
+        "instructions": "1. Hacer puré de papa. 2. Mezclar con queso y perejil. 3. Formar croquetas, pasar por huevo y pan rallado. 4. Freír u hornear."
+    },
+    {
+        "id": "r42",
+        "name": "Ramen Casero",
+        "imageKeyword": "ramen noodle soup egg",
+        "ingredients": [
+            "caldo de pollo",
+            "fideos ramen",
+            "huevo",
+            "pak choi",
+            "salsa de soja"
+        ],
+        "categories": [
+            "familiar"
+        ],
+        "time": 30,
+        "difficulty": "Media",
+        "instructions": "1. Hervir el caldo con soja. 2. Cocinar los fideos. 3. Armar el bowl con fideos, caldo y toppings. 4. Agregar huevo a punto."
+    },
+    {
+        "id": "r43",
+        "name": "Tostadas de Aguacate",
+        "imageKeyword": "avocado toast eggs",
+        "ingredients": [
+            "pan integral",
+            "aguacate",
+            "limon",
+            "tomate cherry",
+            "sal en escamas"
+        ],
+        "categories": [
+            "rapido",
+            "saludable"
+        ],
+        "time": 5,
+        "difficulty": "Fácil",
+        "instructions": "1. Tostar el pan. 2. Aplastar el aguacate con limón y sal. 3. Untar sobre el pan. 4. Decorar con tomate cherry."
+    },
+    {
+        "id": "r44",
+        "name": "Chili con Carne",
+        "imageKeyword": "chili con carne beef beans",
+        "ingredients": [
+            "carne picada",
+            "porotos rojos",
+            "tomate",
+            "ají",
+            "comino"
+        ],
+        "categories": [
+            "familiar"
+        ],
+        "time": 40,
+        "difficulty": "Media",
+        "instructions": "1. Dorar la carne con cebolla. 2. Agregar tomate, porotos y especias. 3. Cocinar 30 min a fuego lento. 4. Servir con arroz o pan."
+    },
+    {
+        "id": "r45",
+        "name": "Bruschetta Italiana",
+        "imageKeyword": "bruschetta tomato basil",
+        "ingredients": [
+            "pan rústico",
+            "tomate",
+            "albahaca",
+            "ajo",
+            "aceite de oliva"
+        ],
+        "categories": [
+            "rapido",
+            "economico"
+        ],
+        "time": 10,
+        "difficulty": "Fácil",
+        "instructions": "1. Tostar el pan. 2. Frotar con ajo. 3. Picar tomate con albahaca y aceite. 4. Colocar sobre el pan y servir."
+    },
+    {
+        "id": "r46",
+        "name": "Pollo al Curry Verde",
+        "imageKeyword": "green curry chicken thai",
+        "ingredients": [
+            "pollo",
+            "pasta de curry verde",
+            "leche de coco",
+            "pimiento",
+            "albahaca thai"
+        ],
+        "categories": [
+            "familiar",
+            "rapido"
+        ],
+        "time": 25,
+        "difficulty": "Fácil",
+        "instructions": "1. Sofreír pasta de curry. 2. Agregar pollo y sellar. 3. Añadir leche de coco y verduras. 4. Cocinar 15 min y servir con arroz."
+    },
+    {
+        "id": "r47",
+        "name": "Gazpacho Andaluz",
+        "imageKeyword": "gazpacho cold tomato soup",
+        "ingredients": [
+            "tomate",
+            "pepino",
+            "pimiento rojo",
+            "ajo",
+            "aceite de oliva"
+        ],
+        "categories": [
+            "saludable",
+            "rapido"
+        ],
+        "time": 10,
+        "difficulty": "Fácil",
+        "instructions": "1. Procesar todos los ingredientes. 2. Añadir aceite, vinagre y sal. 3. Refrigerar 1 hora. 4. Servir frío con guarnición."
+    },
+    {
+        "id": "r48",
+        "name": "Medallones de Merluza al Limón",
+        "imageKeyword": "hake fish fillet lemon",
+        "ingredients": [
+            "merluza",
+            "limon",
+            "ajo",
+            "perejil",
+            "aceite"
+        ],
+        "categories": [
+            "saludable",
+            "rapido",
+            "economico"
+        ],
+        "time": 15,
+        "difficulty": "Fácil",
+        "instructions": "1. Salpimentar el pescado. 2. Dorar en sartén con aceite y ajo. 3. Agregar jugo de limón y perejil. 4. Cocinar 3 min por lado."
+    },
+    {
+        "id": "r49",
+        "name": "Tortilla Española",
+        "imageKeyword": "spanish omelette potato tortilla",
+        "ingredients": [
+            "huevo",
+            "papa",
+            "cebolla",
+            "aceite de oliva",
+            "sal"
+        ],
+        "categories": [
+            "familiar",
+            "economico"
+        ],
+        "time": 30,
+        "difficulty": "Media",
+        "instructions": "1. Freír papas y cebolla en aceite. 2. Mezclar con huevos batidos. 3. Cuajar en sartén. 4. Dar vuelta con plato y terminar la cocción."
+    },
+    {
+        "id": "r50",
+        "name": "Poke Bowl de Atún",
+        "imageKeyword": "poke bowl tuna rice",
+        "ingredients": [
+            "atun fresco",
+            "arroz",
+            "aguacate",
+            "edamame",
+            "salsa de soja"
+        ],
+        "categories": [
+            "saludable"
+        ],
+        "time": 20,
+        "difficulty": "Media",
+        "instructions": "1. Cocinar y enfriar el arroz. 2. Cortar el atún en cubos y marinar en soja. 3. Armar el bowl con todos los ingredientes."
+    },
+    {
+        "id": "r51",
+        "name": "Crêpes de Jamón y Queso",
+        "imageKeyword": "crepes ham cheese savory",
+        "ingredients": [
+            "harina",
+            "leche",
+            "huevo",
+            "jamon",
+            "queso"
+        ],
+        "categories": [
+            "rapido",
+            "familiar",
+            "economico"
+        ],
+        "time": 20,
+        "difficulty": "Fácil",
+        "instructions": "1. Mezclar harina, leche y huevo hasta obtener masa lisa. 2. Cocinar crêpes finas. 3. Rellenar con jamón y queso, doblar y servir."
+    },
+    {
+        "id": "r52",
+        "name": "Cazuela de Pollo",
+        "imageKeyword": "chicken stew vegetables cazuela",
+        "ingredients": [
+            "pollo",
+            "papa",
+            "choclo",
+            "zanahoria",
+            "caldo"
+        ],
+        "categories": [
+            "familiar",
+            "economico"
+        ],
+        "time": 45,
+        "difficulty": "Fácil",
+        "instructions": "1. Dorar el pollo. 2. Agregar verduras y caldo. 3. Cocinar a fuego lento 30 min. 4. Servir caliente con arroz."
+    },
+    {
+        "id": "r53",
+        "name": "Sorrentinos de Ricota y Espinaca",
+        "imageKeyword": "ricotta spinach ravioli pasta",
+        "ingredients": [
+            "pasta fresca",
+            "ricota",
+            "espinaca",
+            "nuez moscada",
+            "salsa rosa"
+        ],
+        "categories": [
+            "familiar"
+        ],
+        "time": 30,
+        "difficulty": "Media",
+        "instructions": "1. Preparar relleno de ricota, espinaca y nuez moscada. 2. Rellenar pasta. 3. Hervir 4-5 min. 4. Servir con salsa rosa."
+    },
+    {
+        "id": "r54",
+        "name": "Burritos de Pollo",
+        "imageKeyword": "chicken burrito wrapped",
+        "ingredients": [
+            "tortilla grande",
+            "pollo",
+            "arroz",
+            "porotos negros",
+            "queso cheddar"
+        ],
+        "categories": [
+            "familiar",
+            "rapido"
+        ],
+        "time": 20,
+        "difficulty": "Fácil",
+        "instructions": "1. Cocinar el pollo con especias. 2. Calentar la tortilla. 3. Rellenar con pollo, arroz, porotos y queso. 4. Enrollar bien y tostar en sartén."
+    },
+    {
+        "id": "r55",
+        "name": "Espaguetis a la Boloñesa",
+        "imageKeyword": "spaghetti bolognese meat sauce",
+        "ingredients": [
+            "espaguetis",
+            "carne picada",
+            "tomate",
+            "zanahoria",
+            "apio"
+        ],
+        "categories": [
+            "familiar"
+        ],
+        "time": 40,
+        "difficulty": "Media",
+        "instructions": "1. Sofreír verduras. 2. Agregar carne y dorar. 3. Incorporar tomate y cocinar 30 min. 4. Servir sobre espaguetis con parmesano."
+    },
+    {
+        "id": "r56",
+        "name": "Guiso de Arroz con Pollo",
+        "imageKeyword": "rice chicken stew arroz con pollo",
+        "ingredients": [
+            "pollo",
+            "arroz",
+            "tomate",
+            "pimiento",
+            "caldo"
+        ],
+        "categories": [
+            "familiar",
+            "economico"
+        ],
+        "time": 40,
+        "difficulty": "Fácil",
+        "instructions": "1. Dorar el pollo troceado. 2. Sofreír pimiento y tomate. 3. Agregar arroz y caldo. 4. Cocinar 20 min hasta que el arroz absorba el líquido."
+    },
+    {
+        "id": "r57",
+        "name": "Ensalada César",
+        "imageKeyword": "caesar salad croutons",
+        "ingredients": [
+            "lechuga romana",
+            "pollo a la plancha",
+            "crutones",
+            "queso parmesano",
+            "aderezo césar"
+        ],
+        "categories": [
+            "saludable",
+            "rapido"
+        ],
+        "time": 15,
+        "difficulty": "Fácil",
+        "instructions": "1. Grillar el pollo y cortar en tiras. 2. Mezclar lechuga con aderezo. 3. Agregar crutones y parmesano. 4. Completar con el pollo."
+    },
+    {
+        "id": "r58",
+        "name": "Gyozas de Cerdo",
+        "imageKeyword": "gyoza dumplings pan fried",
+        "ingredients": [
+            "masa de gyoza",
+            "cerdo picado",
+            "col",
+            "jengibre",
+            "salsa de soja"
+        ],
+        "categories": [
+            "familiar"
+        ],
+        "time": 30,
+        "difficulty": "Media",
+        "instructions": "1. Mezclar el relleno de cerdo con col y jengibre. 2. Rellenar y plegar las gyozas. 3. Dorar en sartén, luego agregar agua y tapar. 4. Servir con salsa de soja."
+    },
+    {
+        "id": "r59",
+        "name": "Batata Asada con Especias",
+        "imageKeyword": "roasted sweet potato spices",
+        "ingredients": [
+            "batata",
+            "aceite",
+            "pimentón",
+            "comino",
+            "sal"
+        ],
+        "categories": [
+            "saludable",
+            "economico",
+            "rapido"
+        ],
+        "time": 25,
+        "difficulty": "Fácil",
+        "instructions": "1. Cortar la batata en gajos. 2. Mezclar con aceite y especias. 3. Hornear a 200°C por 25 min volteando a mitad."
+    },
+    {
+        "id": "r60",
+        "name": "Sopa de Cebolla Gratinada",
+        "imageKeyword": "french onion soup gratin",
+        "ingredients": [
+            "cebolla",
+            "caldo de res",
+            "vino blanco",
+            "pan",
+            "queso gruyere"
+        ],
+        "categories": [
+            "familiar"
+        ],
+        "time": 50,
+        "difficulty": "Media",
+        "instructions": "1. Caramelizar cebollas 30 min. 2. Agregar vino y caldo. 3. Servir en bowl con pan y queso. 4. Gratinar en horno."
+    },
+    {
+        "id": "r61",
+        "name": "Bocadillo de Tortilla",
+        "imageKeyword": "tortilla bocadillo sandwich spanish",
+        "ingredients": [
+            "pan baguette",
+            "tortilla española",
+            "lechuga",
+            "tomate",
+            "mayonesa"
+        ],
+        "categories": [
+            "rapido",
+            "economico"
+        ],
+        "time": 5,
+        "difficulty": "Fácil",
+        "instructions": "1. Abrir el pan. 2. Untar mayonesa. 3. Colocar una porción de tortilla española con lechuga y tomate. 4. Cerrar y servir."
+    },
+    {
+        "id": "r62",
+        "name": "Arroz con Leche",
+        "imageKeyword": "rice pudding creamy",
+        "ingredients": [
+            "arroz",
+            "leche",
+            "azucar",
+            "canela",
+            "limón"
+        ],
+        "categories": [
+            "economico",
+            "familiar"
+        ],
+        "time": 35,
+        "difficulty": "Fácil",
+        "instructions": "1. Hervir arroz en leche con canela y cáscara de limón. 2. Añadir azúcar. 3. Cocinar a fuego muy suave removiendo. 4. Servir frío o tibio."
+    },
+    {
+        "id": "r63",
+        "name": "Muslos de Pollo al Horno con Papas",
+        "imageKeyword": "chicken thighs roasted potatoes",
+        "ingredients": [
+            "muslos de pollo",
+            "papa",
+            "romero",
+            "ajo",
+            "aceite"
+        ],
+        "categories": [
+            "familiar",
+            "economico"
+        ],
+        "time": 50,
+        "difficulty": "Fácil",
+        "instructions": "1. Condimentar el pollo con ajo y romero. 2. Colocar con papas cortadas en bandeja. 3. Hornear a 200°C por 45 min."
+    },
+    {
+        "id": "r64",
+        "name": "Frittata de Verduras",
+        "imageKeyword": "frittata vegetables italian egg",
+        "ingredients": [
+            "huevo",
+            "calabacín",
+            "pimiento",
+            "cebolla",
+            "queso"
+        ],
+        "categories": [
+            "saludable",
+            "rapido",
+            "economico"
+        ],
+        "time": 20,
+        "difficulty": "Fácil",
+        "instructions": "1. Saltear verduras en sartén apta para horno. 2. Verter huevos batidos. 3. Cocinar base en vitro y terminar 5 min en horno hasta cuajar."
+    },
+    {
+        "id": "r65",
+        "name": "Ceviche de Mariscos",
+        "imageKeyword": "seafood ceviche lime peruvian",
+        "ingredients": [
+            "camarones",
+            "calamar",
+            "limon",
+            "cebolla morada",
+            "cilantro"
+        ],
+        "categories": [
+            "saludable",
+            "rapido"
+        ],
+        "time": 15,
+        "difficulty": "Media",
+        "instructions": "1. Blanquear los mariscos brevemente. 2. Marinar en jugo de limón. 3. Mezclar con cebolla morada y cilantro. 4. Servir con choclo y camote."
+    },
+    {
+        "id": "r66",
+        "name": "Fideos con Pesto Genovés",
+        "imageKeyword": "pasta pesto genovese basil",
+        "ingredients": [
+            "pasta",
+            "albahaca",
+            "piñones",
+            "queso parmesano",
+            "ajo"
+        ],
+        "categories": [
+            "rapido",
+            "saludable"
+        ],
+        "time": 15,
+        "difficulty": "Fácil",
+        "instructions": "1. Procesar albahaca, piñones, ajo y parmesano con aceite. 2. Cocinar pasta al dente. 3. Mezclar con pesto fuera del fuego."
+    },
+    {
+        "id": "r67",
+        "name": "Pollo Kung Pao",
+        "imageKeyword": "kung pao chicken peanuts chinese",
+        "ingredients": [
+            "pollo",
+            "maní",
+            "ají seco",
+            "pimiento",
+            "salsa de soja"
+        ],
+        "categories": [
+            "rapido"
+        ],
+        "time": 20,
+        "difficulty": "Media",
+        "instructions": "1. Marinar el pollo en soja y maicena. 2. Saltear con ajíes secos. 3. Agregar pimiento y maní. 4. Añadir salsa y servir con arroz."
+    },
+    {
+        "id": "r68",
+        "name": "Verduras al Wok con Tofu",
+        "imageKeyword": "tofu vegetable stir fry wok",
+        "ingredients": [
+            "tofu firme",
+            "brócoli",
+            "zanahoria",
+            "salsa de soja",
+            "jengibre"
+        ],
+        "categories": [
+            "saludable",
+            "rapido"
+        ],
+        "time": 15,
+        "difficulty": "Fácil",
+        "instructions": "1. Dorar el tofu en cubos. 2. Saltear verduras a fuego fuerte. 3. Agregar jengibre y salsa de soja. 4. Mezclar con el tofu y servir."
+    },
+    {
+        "id": "r69",
+        "name": "Guiso de Porotos Negros",
+        "imageKeyword": "black bean stew bowl",
+        "ingredients": [
+            "porotos negros",
+            "cebolla",
+            "ajo",
+            "pimiento",
+            "comino"
+        ],
+        "categories": [
+            "saludable",
+            "economico"
+        ],
+        "time": 40,
+        "difficulty": "Fácil",
+        "instructions": "1. Sofreír cebolla, ajo y pimiento. 2. Agregar porotos cocidos. 3. Condimentar con comino. 4. Cocinar 20 min y servir con arroz."
+    },
+    {
+        "id": "r70",
+        "name": "Supremas Rellenas",
+        "imageKeyword": "stuffed chicken breast cordon bleu",
+        "ingredients": [
+            "pechuga de pollo",
+            "jamon",
+            "queso",
+            "pan rallado",
+            "huevo"
+        ],
+        "categories": [
+            "familiar"
+        ],
+        "time": 35,
+        "difficulty": "Media",
+        "instructions": "1. Abrir las supremas en mariposa. 2. Rellenar con jamón y queso. 3. Cerrar, empanar y hornear 25 min a 200°C."
+    },
+    {
+        "id": "r71",
+        "name": "Tabbouleh",
+        "imageKeyword": "tabbouleh parsley bulgur salad",
+        "ingredients": [
+            "trigo burgol",
+            "perejil",
+            "menta",
+            "tomate",
+            "limon"
+        ],
+        "categories": [
+            "saludable",
+            "rapido"
+        ],
+        "time": 15,
+        "difficulty": "Fácil",
+        "instructions": "1. Remojar el burgol en agua caliente 10 min. 2. Picar finamente perejil, menta y tomate. 3. Mezclar con burgol, limón y aceite de oliva."
+    },
+    {
+        "id": "r72",
+        "name": "Guiso de Lentejas con Espinaca",
+        "imageKeyword": "lentil spinach stew healthy",
+        "ingredients": [
+            "lentejas rojas",
+            "espinaca",
+            "tomate",
+            "cebolla",
+            "cúrcuma"
+        ],
+        "categories": [
+            "saludable",
+            "economico"
+        ],
+        "time": 25,
+        "difficulty": "Fácil",
+        "instructions": "1. Sofreír cebolla con cúrcuma. 2. Agregar tomate y lentejas. 3. Cubrir con agua y cocinar 15 min. 4. Añadir espinaca y servir."
+    },
+    {
+        "id": "r73",
+        "name": "Hamburguesa Clásica Casera",
+        "imageKeyword": "classic homemade beef burger",
+        "ingredients": [
+            "carne picada",
+            "cebolla",
+            "lechuga",
+            "tomate",
+            "pan de hamburguesa"
+        ],
+        "categories": [
+            "familiar"
+        ],
+        "time": 20,
+        "difficulty": "Fácil",
+        "instructions": "1. Formar medallones con la carne. 2. Cocinar en sartén o parrilla. 3. Tostar el pan. 4. Armar con lechuga, tomate y salsa a gusto."
+    },
+    {
+        "id": "r74",
+        "name": "Papas al Horno con Crema",
+        "imageKeyword": "baked potatoes cream cheese topping",
+        "ingredients": [
+            "papa grande",
+            "crema agria",
+            "queso cheddar",
+            "cebolla de verdeo",
+            "manteca"
+        ],
+        "categories": [
+            "economico",
+            "familiar"
+        ],
+        "time": 60,
+        "difficulty": "Fácil",
+        "instructions": "1. Pinchar las papas y hornear 50 min a 200°C. 2. Abrir y agregar manteca. 3. Rellenar con crema, queso y verdeo."
+    },
+    {
+        "id": "r75",
+        "name": "Soup Dumplings (Xiaolongbao)",
+        "imageKeyword": "xiaolongbao soup dumplings chinese",
+        "ingredients": [
+            "masa de dumpling",
+            "carne de cerdo",
+            "caldo gelatinizado",
+            "jengibre",
+            "vinagre negro"
+        ],
+        "categories": [
+            "familiar"
+        ],
+        "time": 60,
+        "difficulty": "Difícil",
+        "instructions": "1. Preparar caldo gelatinizado. 2. Mezclar relleno con caldo frío. 3. Plegar dumplings. 4. Cocinar al vapor 8 min. 5. Servir con vinagre y jengibre."
+    },
+    {
+        "id": "r76",
+        "name": "Bowl de Quinoa con Pollo",
+        "imageKeyword": "quinoa bowl chicken healthy",
+        "ingredients": [
+            "quinoa",
+            "pollo a la plancha",
+            "aguacate",
+            "tomate cherry",
+            "espinaca"
+        ],
+        "categories": [
+            "saludable"
+        ],
+        "time": 25,
+        "difficulty": "Fácil",
+        "instructions": "1. Cocinar quinoa. 2. Grillar el pollo y cortar en tiras. 3. Armar el bowl con todos los ingredientes y aderezar con limón y aceite."
+    },
+    {
+        "id": "r77",
+        "name": "Costillitas de Cerdo a la BBQ",
+        "imageKeyword": "pork ribs bbq grilled",
+        "ingredients": [
+            "costillas de cerdo",
+            "salsa BBQ",
+            "ajo",
+            "pimentón",
+            "miel"
+        ],
+        "categories": [
+            "familiar"
+        ],
+        "time": 90,
+        "difficulty": "Media",
+        "instructions": "1. Condimentar costillas con mezcla de especias. 2. Hornear 1 hora tapadas. 3. Aplicar salsa BBQ y terminar 20 min descubiertas a fuego alto."
+    },
+    {
+        "id": "r78",
+        "name": "Tablas de Quesos y Fiambres",
+        "imageKeyword": "charcuterie board cheese meats",
+        "ingredients": [
+            "queso variado",
+            "jamon crudo",
+            "salamín",
+            "nueces",
+            "uvas"
+        ],
+        "categories": [
+            "rapido"
+        ],
+        "time": 10,
+        "difficulty": "Fácil",
+        "instructions": "1. Disponer quesos variados en tabla. 2. Agregar fiambres doblados o enrollados. 3. Completar con frutas secas, uvas y mermelada."
+    },
+    {
+        "id": "r79",
+        "name": "Okonomiyaki",
+        "imageKeyword": "okonomiyaki japanese savory pancake",
+        "ingredients": [
+            "harina",
+            "huevo",
+            "col",
+            "panceta",
+            "mayonesa japonesa"
+        ],
+        "categories": [
+            "familiar",
+            "rapido"
+        ],
+        "time": 20,
+        "difficulty": "Media",
+        "instructions": "1. Mezclar harina, huevo, col rallada y agua. 2. Cocinar en sartén con panceta encima. 3. Dar vuelta y terminar la cocción. 4. Decorar con salsas y alga."
+    },
+    {
+        "id": "r80",
+        "name": "Peceto al Vino Tinto",
+        "imageKeyword": "beef roast red wine",
+        "ingredients": [
+            "peceto",
+            "vino tinto",
+            "cebolla",
+            "zanahoria",
+            "tomillo"
+        ],
+        "categories": [
+            "familiar"
+        ],
+        "time": 90,
+        "difficulty": "Media",
+        "instructions": "1. Dorar el peceto. 2. Agregar verduras y vino. 3. Estofar tapado 1 hora. 4. Reducir el jugo y servir en rodajas."
+    },
+    {
+        "id": "r81",
+        "name": "Arepas con Pollo Desmenuzado",
+        "imageKeyword": "arepas stuffed shredded chicken",
+        "ingredients": [
+            "harina de maíz",
+            "pollo",
+            "queso",
+            "aguacate",
+            "sal"
+        ],
+        "categories": [
+            "familiar",
+            "economico"
+        ],
+        "time": 30,
+        "difficulty": "Media",
+        "instructions": "1. Mezclar harina con agua y sal, formar arepas. 2. Cocinar en sartén o plancha. 3. Abrir y rellenar con pollo desmenuzado, queso y aguacate."
+    },
+    {
+        "id": "r82",
+        "name": "Hummus Casero",
+        "imageKeyword": "homemade hummus chickpea",
+        "ingredients": [
+            "garbanzos",
+            "tahini",
+            "limon",
+            "ajo",
+            "aceite de oliva"
+        ],
+        "categories": [
+            "saludable",
+            "rapido",
+            "economico"
+        ],
+        "time": 10,
+        "difficulty": "Fácil",
+        "instructions": "1. Procesar garbanzos con tahini, limón y ajo. 2. Añadir aceite y agua hasta textura cremosa. 3. Servir con pimentón y aceite."
+    },
+    {
+        "id": "r83",
+        "name": "Pollo Marroquí con Cous Cous",
+        "imageKeyword": "moroccan chicken couscous tagine",
+        "ingredients": [
+            "pollo",
+            "cous cous",
+            "especias ras el hanout",
+            "garbanzos",
+            "pasas"
+        ],
+        "categories": [
+            "familiar"
+        ],
+        "time": 45,
+        "difficulty": "Media",
+        "instructions": "1. Marinar el pollo con ras el hanout. 2. Dorar y cocinar con garbanzos y pasas. 3. Preparar cous cous. 4. Servir el pollo sobre el cous cous."
+    },
+    {
+        "id": "r84",
+        "name": "Nachos con Guacamole",
+        "imageKeyword": "nachos guacamole cheese dip",
+        "ingredients": [
+            "nachos",
+            "aguacate",
+            "tomate",
+            "limon",
+            "queso cheddar fundido"
+        ],
+        "categories": [
+            "rapido",
+            "familiar"
+        ],
+        "time": 10,
+        "difficulty": "Fácil",
+        "instructions": "1. Fundir el queso. 2. Pisar aguacate con limón, tomate y sal. 3. Calentar los nachos. 4. Servir con guacamole y queso fundido."
+    },
+    {
+        "id": "r85",
+        "name": "Pechuga de Pollo con Salsa de Mostaza y Miel",
+        "imageKeyword": "chicken breast honey mustard sauce",
+        "ingredients": [
+            "pechuga de pollo",
+            "mostaza",
+            "miel",
+            "crema",
+            "romero"
+        ],
+        "categories": [
+            "rapido",
+            "familiar"
+        ],
+        "time": 20,
+        "difficulty": "Fácil",
+        "instructions": "1. Cocinar la pechuga a la plancha. 2. En la misma sartén, mezclar mostaza, miel y crema. 3. Reducir y napar el pollo."
+    },
+    {
+        "id": "r86",
+        "name": "Sopa de Zapallo Crema",
+        "imageKeyword": "pumpkin cream soup",
+        "ingredients": [
+            "zapallo",
+            "cebolla",
+            "caldo de verdura",
+            "crema",
+            "nuez moscada"
+        ],
+        "categories": [
+            "saludable",
+            "economico"
+        ],
+        "time": 30,
+        "difficulty": "Fácil",
+        "instructions": "1. Rehogar cebolla. 2. Agregar zapallo en cubos y caldo. 3. Cocinar hasta tierno y procesar. 4. Añadir crema y nuez moscada."
+    },
+    {
+        "id": "r87",
+        "name": "Espinaca Salteada con Ajo",
+        "imageKeyword": "sauteed spinach garlic",
+        "ingredients": [
+            "espinaca",
+            "ajo",
+            "aceite de oliva",
+            "sal",
+            "pimienta"
+        ],
+        "categories": [
+            "saludable",
+            "rapido",
+            "economico"
+        ],
+        "time": 5,
+        "difficulty": "Fácil",
+        "instructions": "1. Calentar aceite con ajo laminado. 2. Agregar espinaca lavada. 3. Saltear 2-3 min hasta que reduzca. 4. Salpimentar y servir."
+    },
+    {
+        "id": "r88",
+        "name": "Pollo con Champiñones a la Crema",
+        "imageKeyword": "chicken mushroom cream sauce",
+        "ingredients": [
+            "pechuga de pollo",
+            "champiñones",
+            "crema de leche",
+            "vino blanco",
+            "ajo"
+        ],
+        "categories": [
+            "familiar",
+            "rapido"
+        ],
+        "time": 25,
+        "difficulty": "Fácil",
+        "instructions": "1. Dorar el pollo. 2. Saltear champiñones con ajo. 3. Desglasar con vino y agregar crema. 4. Cocinar hasta reducir y napar el pollo."
+    },
+    {
+        "id": "r89",
+        "name": "Ensalada de Rúcula con Parmesano",
+        "imageKeyword": "arugula salad parmesan lemon",
+        "ingredients": [
+            "rúcula",
+            "queso parmesano",
+            "limon",
+            "aceite de oliva",
+            "pimienta negra"
+        ],
+        "categories": [
+            "saludable",
+            "rapido"
+        ],
+        "time": 5,
+        "difficulty": "Fácil",
+        "instructions": "1. Lavar y secar la rúcula. 2. Aderezar con limón, aceite y pimienta. 3. Cubrir con lascas de parmesano."
+    },
+    {
+        "id": "r90",
+        "name": "Strudel de Manzana",
+        "imageKeyword": "apple strudel pastry dessert",
+        "ingredients": [
+            "masa filo",
+            "manzana",
+            "azucar",
+            "canela",
+            "pasas"
+        ],
+        "categories": [
+            "familiar"
+        ],
+        "time": 45,
+        "difficulty": "Media",
+        "instructions": "1. Pelar y cortar manzanas con azúcar, canela y pasas. 2. Envolver en masa filo con manteca. 3. Hornear 30 min a 180°C hasta dorar."
+    },
+    {
+        "id": "r91",
+        "name": "Rollitos de Primavera",
+        "imageKeyword": "spring rolls fried crispy",
+        "ingredients": [
+            "masa de rollito",
+            "col",
+            "zanahoria",
+            "brotes de soja",
+            "salsa de soja"
+        ],
+        "categories": [
+            "rapido",
+            "familiar"
+        ],
+        "time": 25,
+        "difficulty": "Media",
+        "instructions": "1. Saltear verduras con soja. 2. Enfriar y rellenar las tapas. 3. Cerrar bien y freír hasta dorar. 4. Servir con salsa agridulce."
+    },
+    {
+        "id": "r92",
+        "name": "Albóndigas en Salsa de Tomate",
+        "imageKeyword": "meatballs tomato sauce",
+        "ingredients": [
+            "carne picada",
+            "pan rallado",
+            "huevo",
+            "tomate triturado",
+            "ajo"
+        ],
+        "categories": [
+            "familiar",
+            "economico"
+        ],
+        "time": 35,
+        "difficulty": "Fácil",
+        "instructions": "1. Mezclar carne con pan, huevo y condimentos. 2. Formar albóndigas. 3. Dorar en sartén. 4. Terminar en salsa de tomate 15 min."
+    },
+    {
+        "id": "r93",
+        "name": "Dahl de Lentejas Rojas",
+        "imageKeyword": "red lentil dahl indian",
+        "ingredients": [
+            "lentejas rojas",
+            "cebolla",
+            "tomate",
+            "leche de coco",
+            "curry"
+        ],
+        "categories": [
+            "saludable",
+            "economico"
+        ],
+        "time": 25,
+        "difficulty": "Fácil",
+        "instructions": "1. Sofreír cebolla con curry. 2. Agregar tomate y lentejas. 3. Añadir leche de coco y agua. 4. Cocinar 20 min hasta cremoso."
+    },
+    {
+        "id": "r94",
+        "name": "Sandwich Club",
+        "imageKeyword": "club sandwich layers",
+        "ingredients": [
+            "pan de molde",
+            "pollo a la plancha",
+            "panceta",
+            "lechuga",
+            "tomate"
+        ],
+        "categories": [
+            "rapido",
+            "familiar"
+        ],
+        "time": 10,
+        "difficulty": "Fácil",
+        "instructions": "1. Tostar el pan. 2. Untar mayonesa. 3. Apilar pollo, panceta, lechuga y tomate. 4. Cortar en triángulos con palillo."
+    },
+    {
+        "id": "r95",
+        "name": "Fideos Soba con Miso y Vegetales",
+        "imageKeyword": "soba noodles miso vegetables",
+        "ingredients": [
+            "fideos soba",
+            "pasta de miso",
+            "zanahoria",
+            "cebolla de verdeo",
+            "sésamo"
+        ],
+        "categories": [
+            "saludable",
+            "rapido"
+        ],
+        "time": 15,
+        "difficulty": "Fácil",
+        "instructions": "1. Hervir fideos soba. 2. Disolver miso en agua caliente. 3. Saltar zanahoria. 4. Mezclar fideos con miso y verduras, decorar con sésamo."
+    },
+    {
+        "id": "r96",
+        "name": "Pollo al Disco",
+        "imageKeyword": "chicken vegetables disco grill argentinian",
+        "ingredients": [
+            "pollo",
+            "papa",
+            "cebolla",
+            "morrón",
+            "cerveza"
+        ],
+        "categories": [
+            "familiar"
+        ],
+        "time": 60,
+        "difficulty": "Media",
+        "instructions": "1. Dorar el pollo en el disco. 2. Agregar cebollas y morrones. 3. Incorporar papas en rodajas. 4. Añadir cerveza, tapar y cocinar 30 min."
+    },
+    {
+        "id": "r97",
+        "name": "Tarta de Verduras",
+        "imageKeyword": "vegetable quiche tart",
+        "ingredients": [
+            "masa tarta",
+            "zapallito",
+            "puerro",
+            "queso",
+            "huevo"
+        ],
+        "categories": [
+            "familiar",
+            "economico",
+            "saludable"
+        ],
+        "time": 45,
+        "difficulty": "Media",
+        "instructions": "1. Forrar molde con masa. 2. Saltear puerro y zapallito. 3. Mezclar con huevos y queso. 4. Volcar y hornear 30 min a 180°C."
+    },
+    {
+        "id": "r98",
+        "name": "Pimientos Rellenos",
+        "imageKeyword": "stuffed bell peppers rice meat",
+        "ingredients": [
+            "pimiento",
+            "arroz cocido",
+            "carne picada",
+            "tomate",
+            "queso"
+        ],
+        "categories": [
+            "familiar"
+        ],
+        "time": 45,
+        "difficulty": "Media",
+        "instructions": "1. Cortar la tapa de los pimientos y vaciar. 2. Mezclar arroz con carne y tomate. 3. Rellenar y cubrir con queso. 4. Hornear 30 min tapados."
+    },
+    {
+        "id": "r99",
+        "name": "Crema de Brócoli",
+        "imageKeyword": "cream broccoli soup bowl",
+        "ingredients": [
+            "brócoli",
+            "cebolla",
+            "caldo",
+            "crema",
+            "queso azul"
+        ],
+        "categories": [
+            "saludable",
+            "economico"
+        ],
+        "time": 25,
+        "difficulty": "Fácil",
+        "instructions": "1. Hervir brócoli y cebolla en caldo. 2. Procesar hasta cremoso. 3. Añadir crema. 4. Servir con unos trocitos de queso azul."
+    },
+    {
+        "id": "r100",
+        "name": "Choripán Casero",
+        "imageKeyword": "chorizo sandwich argentinian choripan",
+        "ingredients": [
+            "chorizo criollo",
+            "pan baguette",
+            "chimichurri",
+            "tomate",
+            "lechuga"
+        ],
+        "categories": [
+            "rapido",
+            "familiar",
+            "economico"
+        ],
+        "time": 15,
+        "difficulty": "Fácil",
+        "instructions": "1. Cocinar el chorizo a la plancha o parrilla. 2. Tostar el pan. 3. Abrir el chorizo al medio. 4. Armar con chimichurri, tomate y lechuga."
+    }
+]
