@@ -147,10 +147,11 @@ app.get('/api/random', async (req, res) => {
 
     recipe.image = await getRealImage(recipe);
 
-    // Cachear búsquedas por 5 minutos para ahorrar datos
-    res.set('Cache-Control', 'public, max-age=300');
+    // No cachear para permitir aleatoriedad real
+    res.set('Cache-Control', 'no-store, no-cache, must-revalidate, proxy-revalidate');
     res.json(recipe);
 });
+
 
 
 // Endpoint Receta del Día
