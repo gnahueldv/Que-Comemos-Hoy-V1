@@ -16,37 +16,28 @@ const normalizeText = (text) => {
     return text.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
 };
 
-const recipesPath = path.join(__dirname, 'data', 'recipes.json');
-let recipes = [];
+// Configuración de rutas de datos
+let recipesPath = path.join(__dirname, 'data', 'recipes.json');
 
-console.log('📂 Intentando cargar recetas desde:', recipesPath);
+// Si no existe la carpeta data (común en despliegues directos), buscar en la raíz
+if (!fs.existsSync(recipesPath)) {
+    recipesPath = path.join(__dirname, 'recipes.json');
+}
+
+let recipes = [];
 
 try {
     if (fs.existsSync(recipesPath)) {
         const rawData = fs.readFileSync(recipesPath, 'utf8').replace(/^\uFEFF/, '');
         recipes = JSON.parse(rawData);
-        console.log(`✅ Recetas cargadas con éxito: ${recipes.length} encontradas.`);
+        console.log(`✅ ${recipes.length} recetas cargadas desde: ${recipesPath}`);
     } else {
-        console.error('❌ ERROR: No se encuentra recipes.json en /data/');
-
-        // Diagnóstico: Listar qué hay en la raíz
-        console.log('🔍 Escaneando directorio raíz (__dirname):', __dirname);
-        try {
-            const files = fs.readdirSync(__dirname);
-            console.log('Archivos en raíz:', files.join(', '));
-
-            // Si existe una carpeta que se llame algo parecido a data
-            const dataFolder = files.find(f => f.toLowerCase() === 'data');
-            if (dataFolder) {
-                console.log(`📂 Carpeta "${dataFolder}" encontrada. Contenido:`, fs.readdirSync(path.join(__dirname, dataFolder)).join(', '));
-            } else {
-                console.log('❌ No existe ninguna carpeta llamada "data" (ni "Data").');
-            }
-        } catch (e) { console.log('Error escaneando directorios:', e.message); }
+        console.error('❌ ERROR FATAL: No se encuentra recipes.json en ninguna ruta.');
     }
 } catch (error) {
-    console.error('❌ Error al parsear recipes.json:', error.message);
+    console.error('❌ Error al procesar las recetas:', error.message);
 }
+
 
 
 /**
