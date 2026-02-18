@@ -19,12 +19,23 @@ const normalizeText = (text) => {
 const recipesPath = path.join(__dirname, 'data', 'recipes.json');
 let recipes = [];
 
+console.log('📂 Intentando cargar recetas desde:', recipesPath);
+
 try {
-    const rawData = fs.readFileSync(recipesPath, 'utf8').replace(/^\uFEFF/, '');
-    recipes = JSON.parse(rawData);
+    if (fs.existsSync(recipesPath)) {
+        const rawData = fs.readFileSync(recipesPath, 'utf8').replace(/^\uFEFF/, '');
+        recipes = JSON.parse(rawData);
+        console.log(`✅ Recetas cargadas con éxito: ${recipes.length} encontradas.`);
+    } else {
+        console.error('❌ ERROR: El archivo recipes.json no existe en la ruta especificada.');
+        // Intentar buscar en minúsculas por si acaso
+        const altPath = path.join(__dirname, 'Data', 'recipes.json');
+        if (fs.existsSync(altPath)) console.log('💡 Sugerencia: El archivo existe pero la carpeta empieza con D mayúscula.');
+    }
 } catch (error) {
-    console.error('Error loading recipes:', error);
+    console.error('❌ Error al parsear recipes.json:', error.message);
 }
+
 
 /**
  * Busca una imagen real en Pexels para la receta
