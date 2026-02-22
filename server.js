@@ -178,8 +178,22 @@ app.get('/api/recipes/:id', async (req, res) => {
     res.json(recipe);
 });
 
+app.get('/health', (req, res) => {
+    res.status(200).send('OK');
+});
+
 app.listen(PORT, '0.0.0.0', () => {
     console.log(`🚀 Servidor listo para producción en el puerto ${PORT}`);
     console.log(`🌐 Si usas Render/Railway, la URL será la que ellos te proporcionen.`);
+
+    // Lógica para evitar que Render se duerma (auto-ping cada 14 minutos)
+    const RENDER_EXTERNAL_URL = process.env.RENDER_EXTERNAL_URL;
+    if (RENDER_EXTERNAL_URL) {
+        setInterval(() => {
+            fetch(`${RENDER_EXTERNAL_URL}/health`)
+                .then(res => console.log(`Self-ping exitoso: ${res.status}`))
+                .catch(err => console.error(`Error en self-ping: ${err.message}`));
+        }, 14 * 60 * 1000); // 14 minutos
+    }
 });
 
